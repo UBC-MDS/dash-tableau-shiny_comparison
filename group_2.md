@@ -15,16 +15,18 @@ For beginners who have no idea what Tableau is, the following Youtube links can 
 For data analysts who are just getting started with using Tableau, the following videos can help orientate fresh users with the actual dashboard and navigate the tools around the software:
 - [Tableau basics for beginners](https://www.youtube.com/watch?v=jEgVto5QME8)
 - [Tableau for Data Science and Data Visualization - Crash Course](https://www.youtube.com/watch?v=TPMlZxRRaBQ)
+- [Tableau Public: How-To Videos](https://public.tableau.com/en-us/s/resources)
 
 Other useful website/blogpost tutorials for beginners include:
 - [Comprehensive Tutorial for Tableau Beginners](https://www.tutorialspoint.com/tableau/tableau_dashboard.htm)
-- [Tableau Public: How-To Videos](https://public.tableau.com/en-us/s/resources)
+- [Data Visualisation with Tableau](https://pandeyparul.medium.com/data-visualisation-with-tableau-150f99a39bba)
+- [From a Beginner Perspective: Understanding Visualization & Building charts with Tableau](https://towardsdatascience.com/from-a-beginner-perspective-understanding-visualization-building-charts-with-tableau-8ae258153719)
 
 For inspiration and examples of Tableau Dashboards:
 - [Tableau Public Page (Examples of Tableau Dashboards)](https://twitter.com/tableaupublic)
 - [Tableau Viz of the Day](https://public.tableau.com/app/discover/viz-of-the-day)
 
-### Links
+### Complete List of Links
 
 **Websites & Blogposts**
 
@@ -59,7 +61,7 @@ For examples on what Tableau visualizations look like, here are some cool visual
 
 - [Tableau Twitter Page](https://twitter.com/tableau)
 - [Tableau Public Page (Examples of Tableau Dashboards)](https://twitter.com/tableaupublic)
-- [Tableau Visionaries List for Leaders in the Tableau Community](https://twitter.com/i/lists/826469719326617600)
+- [Tableau Visionaries Twitter List: Leaders in the Tableau Community](https://twitter.com/i/lists/826469719326617600)
 
 **Communities**
 
