@@ -58,7 +58,10 @@ Tableau Public is a **free** platform to publicly share and explore data visuali
 
 After the workbook is published, we will be redirected to our account on the Tableau Public website. To get a link to share on social media or code to embed in a web page, we just need to display a view, and then click Share at the bottom of the view.
 
-To be conclude, all of them are very convenient and easy processes, which can be finished directly through the user interface. What we need to consider when choosing between those options are: 
+
+#### To be conclude：
+
+all of them are very convenient and easy processes, which can be finished directly through the user interface. What we need to consider when choosing between those options are: 
 
 * Device types used by your intended audience
 * Whether users can install client-based software
