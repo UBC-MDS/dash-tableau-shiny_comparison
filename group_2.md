@@ -13,7 +13,7 @@ For beginners who have no idea what Tableau is, the following Youtube links can 
 - [Getting started with Tableau](https://www.youtube.com/watch?v=NLCzpPRCc7U)
 
 For data analysts who are just getting started with using Tableau, the following videos can help orientate fresh users with the actual dashboard and navigate the tools around the software:
-- [Tableau basics for beginners](https://www.youtube.com/watch?v=jEgVto5QME8)
+- [Tableau Basics for Beginners](https://www.youtube.com/watch?v=jEgVto5QME8)
 - [Tableau for Data Science and Data Visualization - Crash Course](https://www.youtube.com/watch?v=TPMlZxRRaBQ)
 - [Tableau Public: How-To Videos](https://public.tableau.com/en-us/s/resources)
 
