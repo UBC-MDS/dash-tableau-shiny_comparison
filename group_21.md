@@ -43,7 +43,7 @@ def plot_altair(xcol, ycol):
     return chart.to_html()
 ```
 
-(3)  To create more than one reactive output(for example, having a plot and text to print on the screen) is basiclly similar to plot reactive to more than one input, we need to list all the properties to update in @app.callback decorator, and return the same number of items from the callback. ALso we need to update the plot function and app.layout to make reactive plot work. In lecture notes, it also mentioned we can define an output area and link it to the plot function as the output area, we can use a Div and the decorated function will now take an additional output in the decorator and return two values instead of one. See below for an example from 532 lecture:
+(3)  To create more than one reactive output(for example, having a plot and text to print on the screen) is basiclly similar to plot reactive to more than one input, we need to list all the properties to update in @app.callback decorator, and return the same number of items from the callback. Still we need to update the plot function and app.layout with corresponding changes to make reactive plot work. In lecture notes, it also mentioned we can define an output area and link it to the plot function as the output area, we can use a Div and the decorated function will now take an additional output in the decorator and return two values instead of one. See below for an example from 532 lecture:
 ```
 @app.callback(
     Output('scatter', 'srcDoc'),
