@@ -7,7 +7,7 @@ Reactivity - How do you generate a reactive plot? Can you indicate (1) the basic
 
 (2) In order to create a plot reactive to more than one input is similar to the basic reactive plot, we need to add another inputs to the callback decorator, then update the plot function and app.layout to be designed to accept multiple inputs.
 
-(3) To create more than one reactive output(for example, having a plot and text to print on the screen) is basiclly similar to plot reactive to more than one input, we need to list all the properties to update in app.callback, and return that many items from the callback. ALso update the plot function and app.layout.
+(3) To create more than one reactive output(for example, having a plot and text to print on the screen) is basiclly similar to plot reactive to more than one input, we need to list all the properties to update in app.callback, and return that many items from the callback. Also we need update the plot function and app.layout with corresponding changes.
 
 ### Long description
 
