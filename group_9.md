@@ -2,7 +2,7 @@
 ## Dash Deployment
 ### Brief description
 
-To complete (no more of 250 words)
+Dash apps can be deployed using two different methods, Plotly’s recommended paid service, Dash Enterprise, and the free-to-use Heroku. Both methods use git-based deployment and so by learning one it is easy to switch to the other. Dash Enterprise provides a suite of development tools and deployment support that allows for easy deployment onto local Linux servers or virtual private cloud services. Dash Enterprise handlrs all of the dependencies of your app by running it through a secure and isolated container, and because of this, deployment is extremely simple and only requires committing changes to git and then running `git push plotly master`. Python, R, and system-level dependencies are also automatically installed by Dash Enterprise, and any future updates to the app can be deployed through committing them and pushing to git. Deployment onto Heroku is essentially the same process since it is also git-based but it doesn’t automatically handle dependencies and so a couple more steps are required, such as setting up a virtual environment, creating a requirements.txt file, and a Procfile to run the app.
 
 ### Long description
 
