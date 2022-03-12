@@ -13,25 +13,29 @@ Dash Enterprise is a paid service provided by Plotly that allows for rapid Dash 
 Dash Enterprise uses a git-based deployment that automatically installs your app’s Python, R, and system-level dependencies. Conflicting dependencies are not a problem with Dash Enterprise because every Dash app is run from a secure and isolated container. Using the following three easy steps you can deploy a Dash app from the command line.
 
 Initialize your Dash project folder with git:
-```cd <your-folder-name>
-git init```
+```
+cd <your-folder-name>
+git init
+```
 
 Select SSH or HTTPS deployment method:
 * For HTTPS:
 
-```git remote add plotly https://\<your-dash-enterprise-platform\>```
+```git remote add plotly https://<your-dash-enterprise-platform>```
 
 where \<your-dash-enterprise-platform\> is replaced with the hostname of your licensed Dash Enterprise in your virtual private cloud service.
 
 * For SSH:
 
-```git remote add plotly \<user-name\>@\<your-dash-enterprise-platform\>```
+```git remote add plotly <user-name>@<your-dash-enterprise-platform>```
 
 Deploy your Dash app to Dash Enterprise:
 
-```git add .
-git commit -m "\<deployment commit message\>"
-git push plotly master```
+```
+git add .
+git commit -m "<deployment commit message>"
+git push plotly master
+```
 
 Following these steps, the Dash app is ready for use and can be visited at your Dash Enterprise platform address. Any subsequent updates to your app can be easily made with a `git push`.
 
@@ -41,14 +45,18 @@ To deploy a python Dash app using Heroku, first you need a free Heroku account a
 
 After creating a folder for your project you must initialize it with git and create a virtual environment:
 
-```git init
+```
+git init
 virtualenv venv
-source venv/bin/activate```
+source venv/bin/activate
+```
 
 Since you are using a virtual environment you must install your app’s dependencies, including Dash and Plotly:
 
-```pip install dash
-pip install plotly```
+```
+pip install dash
+pip install plotly
+```
 
 Additionally you will need the dependency gunicorn, to deploy your app:
 
@@ -68,14 +76,14 @@ Running this declares the `web` process type which means the app will be attache
 
 Once you have all of these files, you can deploy to Heroku using the following commands:
 
-```heroku create \<dash-app-name\>
+```heroku create <dash-app-name>
 git add .
 git commit -m “<deployment commit message>”
 git push heroku master
 heroku ps:scale web=1
 ```
 
-You can now view your app at `https://\<dash-app-name\>.herokuapp.com`.  You can also use `heroku open` from the command line to open the website. If you update your app you can commit your changes to git and deploy to Heroku again with:
+You can now view your app at `https://<dash-app-name>.herokuapp.com`.  You can also use `heroku open` from the command line to open the website. If you update your app you can commit your changes to git and deploy to Heroku again with:
 
 ```git push heroku master```
 
