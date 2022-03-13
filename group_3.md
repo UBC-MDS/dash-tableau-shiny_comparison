@@ -16,6 +16,7 @@ To get to know Dash better as a newbie, the following tutorials and articles can
 
 #### Introduction to Dash
 Short introduction to Dash on various platform.
+
 **Youtube Resources**
 - [Dash - A New Framework for Building User Interfaces](https://www.youtube.com/watch?v=sea2K4AuPOk)
 - [Introduction to Dash Plotly - Data Visualization in Python](https://www.youtube.com/watch?v=hSPmj7mK6ng)
@@ -32,6 +33,7 @@ Note: You might need to register to access to these resources.
 
 ### Tutorials
 Online tutorials with comprehensive curriculum that guide learners/users through building dashboards on Dash:
+
 **Youtube Resources**
 This is a Youtube channel of Adam who is passionate about Dash Plotly. This channel has a variety of topics from basic to advance.
 - [Dash Plotty Channel](https://www.youtube.com/c/CharmingData/featured)
@@ -50,6 +52,7 @@ This 1-hour video provides complete coverage of Plotly with many real world exam
 Note: You might need to register to access to these resources. 
 
 **Webpages/Blogposts**
+
 Two technologies comparison for building web applications:
 - [Dash vs. Shiny](https://appsilon.com/dash-vs-shiny/)
 
@@ -59,17 +62,20 @@ A blogpost to compare strengths and weaknesses of the two libraries. All in all,
 ### Public curated resources
 
 **Communities**
+
 These communities include discussions, Q&A, help forums which are great resources for new learners. 
 - [Dash Community](https://community.plotly.com/)
 - [Dash Stackoverflow Community](https://stackoverflow.com/questions/tagged/plotly-dash)
 
 **GitHub**
+
 A repository compiles great resources.
 - [Awesome Dash Github Repo ](https://github.com/ucg8j/awesome-dash)
 
 - [Dash recipes](https://github.com/plotly/dash-recipes)
 
 **Webinars/Webpages**
+
 To find inspiration for your projects, these examples are very helpful as they are a collection of data dashboards with real life data, for various topics.
 - [Dashboards by Dash](https://www.dashboardom.com/)
 - [Dash Gallery](https://dash.gallery/Portal/)
