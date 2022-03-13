@@ -1,13 +1,51 @@
+# Deploying a dashboard on Shinyapp.io
 
-## Topic name (replace)
-### Brief description
+## Brief description
 
-To complete (no more of 250 words)
+A dashboard is a graphical user interface for data visualization and interaction. Shiny app is one of the most popular dashboard applications, along with dash and tableau. In order to share the dashboard with users, deployment for public or internal access is necessary. There are multiple ways to deploy a Shiny app on the web. These include deployment to the cloud through Shinyapps.io, open-source virtual private cloud through the Shiny Servers, and commercially in a premises/ virtual private cloud using RStudio Connect. If you are a beginner, deployment on Shinyapps.io is your go-to option. Shinyapps.io is a flexible and easy-to-use choice. It allows users to deploy dashboards hosted on R Studio servers in a few minutes. It is suitable for hosting prototypes, individual projects, or even complex projects due to its simplicity. If you want to have more control and customization of your dashboard, another free but more advanced alternative is the Shiny open-source server. This method is securer because users can host multiple applications using the same server behind private firewalls, each with a unique URL. If you are looking for commercial deployment, the recommended option is through RStudio Connect. It is a standalone product that supports both Python and R, moreover, it can host applications, dashboards, and even Jupyter Notebook. Organizations not only have the flexibility to control the firewall or a VPC, but are also able to access other premium features, including integration with RStudio, easy scale-up, and web application support.
 
-### Long description
 
-To complete
+## Long description
+### Host a Shiny app
+In general, there are two main ways to host Shiny apps on the web: through servers hosted by RStudio or on personal servers. Under personal servers, there are two alternatives - open source and commercial.
+
+#### Servers hosted by RStudio
+1. Shinyapps.io is a flexible and easy-to-use cloud-based option to deploy apps as quickly as a few minutes. It is a software as service package hosted on servers operated by R Studio. It is suitable for hosting prototypes, individual projects, and more complex projects due to its ease of use. It can be used for free to host up to 5 apps, and if there is a need for more, there are tiered paid versions. Scalability is also straightforward as this method is cloud-based. However, the disadvantage is that there is no firewall protection for the app, so commercial or company-specific apps may not be suited for this type of deployment. (The Pricelist of this option is provided below.)
+
+#### Personal servers
+2. The open-source Shiny Server package has the advantage that it can run behind private firewalls and can be used to host multiple applications using the same server, each with a unique URL. The professional version of Shiny Server offers additional features such as access restrictions for the applications, SSL encryption, and performance management. Shiny Server open source is free, whereas the professional version is paid.
+
+3. The recommended option for commercial deployment is through RStudio Connect, a standalone product that supports Python and R and can host applications, dashboards, and even Jupyter Notebooks. It is also integrated with Git and provides a user interface. The organization can control the deployed servers, whether on some server behind a firewall or a VPC. It also includes many premium features, including integration with RStudio, easy scale-up, and web application support. This option targets organization with considerable amount of users and only available for paid version.
+
+
+### Deploy and Share a Shiny app through servers hosted by RStudio
+
+The most common and efficient way to deploy a Shiny app is through servers hosted by RStudio. Here are the steps and charges for the service.
+
+Shiny Servers can currently only be hosted from **Ubuntu 14.04+ (64 bit)** or **CentOS/RHEL 6+ (64 bit)**, or **SLES 12**. RStudio has provided these systems with pre-built installers. Otherwise, the server has to be built from the source, for which the instructions are listed [here](https://github.com/rstudio/shiny-server/wiki/Building-Shiny-Server-from-Source).
+
+Once installed, Shiny resorts to deploying apps on the default configuration, in which the apps will be hosted on port 3838. To launch an app, you can copy the app into the location of the server on your PC: 
+`sudo cp -R ~/MY-APP /srv/shiny-server/`
+
+The configurations can be altered using this [reference](https://docs.rstudio.com/shiny-server/) to launch on different ports or other settings. 
+
+
+### Subscription plans of Shiny.io
+
+Deployment on the Shiny cloud through Shiny.io comes at different price points, and offers different features.
+
+| | Free | Starter  | Basic | Standard | Professional |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Cost  | Free  | $9/mo | $39/mo | $99/mo | $299/mo | 
+| # of Apps  | 5  | 25 | Unlimited | Unlimited | Unlimited |
+| Hours  | 25  | 100 | 500 | 2000 | 10000 |
+
 
 ### Links
-* Link 1
-* Link 2
+https://shiny.rstudio.com/deploy/  
+https://www.rstudio.com/products/shiny/download-server/  
+https://docs.rstudio.com/shiny-server/#introduction   
+https://www.rstudio.com/assets/img/RStudio-Connect-12July2021.pdf  
+https://shiny.rstudio.com/tutorial/written-tutorial/lesson7/  
+https://github.com/rstudio/shiny-server/blob/master/README.md  
+https://github.com/rstudio/shiny-server/wiki/Building-Shiny-Server-from-Source  
