@@ -1,0 +1,203 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-03-12T21:31:45-08:00"
+    },
+    {
+      "path": "group_1.html",
+      "title": "Distill for R Markdown",
+      "description": "Scientific and technical writing, native to the web\n",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:46-08:00"
+    },
+    {
+      "path": "group_10.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:47-08:00"
+    },
+    {
+      "path": "group_11.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:48-08:00"
+    },
+    {
+      "path": "group_12.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:49-08:00"
+    },
+    {
+      "path": "group_13.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:50-08:00"
+    },
+    {
+      "path": "group_14.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:50-08:00"
+    },
+    {
+      "path": "group_15.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:51-08:00"
+    },
+    {
+      "path": "group_16.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:52-08:00"
+    },
+    {
+      "path": "group_17.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:53-08:00"
+    },
+    {
+      "path": "group_18.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:54-08:00"
+    },
+    {
+      "path": "group_19.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:54-08:00"
+    },
+    {
+      "path": "group_2.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:55-08:00"
+    },
+    {
+      "path": "group_20.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:56-08:00"
+    },
+    {
+      "path": "group_21.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:57-08:00"
+    },
+    {
+      "path": "group_22.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:58-08:00"
+    },
+    {
+      "path": "group_23.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:59-08:00"
+    },
+    {
+      "path": "group_24.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:31:59-08:00"
+    },
+    {
+      "path": "group_25.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:00-08:00"
+    },
+    {
+      "path": "group_26.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:00-08:00"
+    },
+    {
+      "path": "group_27.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:02-08:00"
+    },
+    {
+      "path": "group_28.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:04-08:00"
+    },
+    {
+      "path": "group_29.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:05-08:00"
+    },
+    {
+      "path": "group_3.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:06-08:00"
+    },
+    {
+      "path": "group_30.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:08-08:00"
+    },
+    {
+      "path": "group_4.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:08-08:00"
+    },
+    {
+      "path": "group_5.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:09-08:00"
+    },
+    {
+      "path": "group_6.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:09-08:00"
+    },
+    {
+      "path": "group_7.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:12-08:00"
+    },
+    {
+      "path": "group_8.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:12-08:00"
+    },
+    {
+      "path": "group_9.html",
+      "author": [],
+      "contents": "\r\nTopic name (replace)\r\nBrief description\r\nTo complete (no more of 250 words)\r\nLong description\r\nTo complete\r\nLinks\r\nLink 1\r\nLink 2\r\n",
+      "last_modified": "2022-03-12T21:32:13-08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Dash - Tableau - Shiny Comparison",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\n\r\nDash\r\nTableau\r\nShiny\r\nHistory - Is this technology mantained by a company or it is open source (or both)?\r\n\r\n\r\n\r\nWhen was it created? Are other companies involved in the current development of this technology? Is possible to be used with different languages (Python / R / Julia / excel / others)? Since when?\r\ngroup_30\r\ngroup_29\r\ngroup_28\r\nScope - Provide the link to the official webpage and main public repo of this technology. If possible, provide the number of stars in the main repository. Report the number of questions open in Stack Overflow. Are there other relevant forums / chats where you can ask questions about this technology? Report the number of issues opened in the main repository. How popular is this technology? Is it mostly used in academia or industry (or both)?\r\ngroup_27\r\ngroup_26\r\ngroup_25\r\nFrontend List documentation (official or not) where you can find how to create layout designs with this technology. At what level is the layout customizable? Can you use bootstrap? How easy it is to use it?\r\ngroup_24\r\ngroup_23\r\ngroup_22\r\nReactivity - How do you generate a reactive plot? Can you indicate (1) the basic way to create a reactive plot, (2) how to create a plot reactive to more than one input and, (3) how to create more than one reactive output (for example, having a plot and text to print on the screen)?\r\ngroup_21\r\ngroup_20\r\ngroup_19\r\nDocumentation and reproducibility - (1) Mention all the official documentation resources. (2) Are there ways to run the dashboard in a reproducible way locally (ie., creating a package?, Docker? Binder? Nothing is said about it?) Provide links/examples if you find that it is possible.\r\ngroup_18\r\ngroup_17\r\ngroup_16\r\nBackend and project structure - (1) Common plotting libraries (interactive or not) used in this technology. What are the most used libraries for maps? Describe the different ways to organize the app regarding the files used in the project (could the files be splitted in minor finles / modules/ etc)\r\ngroup_15\r\ngroup_14\r\ngroup_13\r\nTesting and databases - (1) List packages or other technologies used for testing the app. Is this a common practice for this technology? (2) Is it easy to connect external databases? Mention resources about how to that\r\ngroup_12\r\ngroup_11\r\ngroup_10\r\nDeployment - List all the possible ways to deploy and share this technology using a link. Are all of them free? Explore and describe the most you can about all the options.\r\ngroup_9\r\ngroup_8\r\ngroup_7\r\nPerformance and Examples - (1) How could you improve the performance of this dashboard? (2)Provide an extensive list of examples of relevant apps (published or in galleries or repos). Why are they relevant and given what criteria? Do you find more apps for industry or academia?\r\ngroup_6\r\ngroup_5\r\ngroup_4\r\nResources - Famous conferences - workshops - twitter accounts to follow - blogpost/webpages - sources of material about this technology - Podcasts - Discord/Slack communities - YouTube Channels. Provide the most extensive list of resources you can with a short description for each. Where do you find the most material? Where would you suggest a beginner start learning about this technology?\r\ngroup_3\r\ngroup_2\r\ngroup_1\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-03-12T21:32:15-08:00"
+    }
+  ],
+  "collections": []
+}
