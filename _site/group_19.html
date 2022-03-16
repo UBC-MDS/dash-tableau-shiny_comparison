@@ -18,28 +18,97 @@
  <!--radix_placeholder_import_source-->
  <!--/radix_placeholder_import_source-->
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dash - Tableau - Shiny Comparison: Untitled</title>
+  <title>Dash - Tableau - Shiny Comparison: Reactive Plots</title>
 
+  <meta property="description" itemprop="description" content="Shiny"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Reactive Plots"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Shiny"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dash - Tableau - Shiny Comparison"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Reactive Plots"/>
+  <meta property="twitter:description" content="Shiny"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{},"value":[]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Reactive Plots"]},{"type":"character","attributes":{},"value":["Shiny"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1965,6 +2034,14 @@
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1976,7 +2053,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","authors":[]}
+{"title":"Reactive Plots","description":"Shiny","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1998,24 +2075,89 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>group_19</h1>
+<h1>Reactive Plots</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Shiny</p>
 </div>
 
 
 <div class="d-article">
-<h2 id="topic-name-replace">Topic name (replace)</h2>
 <h3 id="brief-description">Brief description</h3>
-<p>To complete (no more of 250 words)</p>
+<p>The basic way to create a reactive plot is to create a Shiny UI with the <code>fluidPage( )</code> function. The UI object will set the general layout of the dashboard, and inside that we will define the input box with the numeric input, title and value (similar to Dash). We then create a server function which would take in input, output and session. Inside the function we will use a <code>reactive( )</code> expression to tell the server to watch for the changes in inputs. Also, we define the output which tells the UI how to update plots, boxes or texts. We can only call the <code>reactive( )</code> expression within a render function or another reactive expression.</p>
+<p>We can create a plot reactive to more than one input by simply defining multiple inputs with the help of <code>--Input( )</code> functions. Inside the server function we can call the input by calling input with the $ sign. We need to give the plot function to <code>renderPlot( )</code>. The plot function needs to be designed to accept multiple inputs.</p>
+<p>To create more than one reactive output (for example, having a plot and text to print on the screen), we need to add the same input into multiple renders. For example, inside the server function, an input a can be given to to <code>renderPlot( )</code>, <code>renderTable( )</code> or <code>renderText( )</code> simultaneously. Inside the render functions we should have the functions that create the plot, table and text.</p>
+<p><br></p>
 <h3 id="long-description">Long description</h3>
-<p>To complete</p>
+<h4 id="the-basic-way-to-create-a-reactive-plot">The basic way to create a reactive plot</h4>
+<p>The basic way to create a reactive plot is to create a Shiny app object with the the help of <code>shinyApp( )</code> function. This function requires two basic arguments: a UI definition and a function (we name it “server” here) with 3 parameters: input, output and session.</p>
+<p>The UI object is built with the <code>fluidPage( )</code> function to set the general layout of the dashboard. Inside that we can use <code>--Input( )</code> functions to define input boxes with the input variable name (inputID), the label and the value to begin with. For example, in the sample code below, one input box is defined with ‘a’ as the variable name (inputID), 10 as the start value and ‘a_label’ as the title of the box. We then define the output plots with one or more <code>--Output( )</code> functions. The parameters inside the <code>--Output( )</code> functions come from the server function that we define in the next step. In this specific example, we use <code>plotOutput( )</code> to build a graph.</p>
+<p>Next, we create a server function which would take in three parameters: <code>input</code>, <code>output</code> and <code>session</code>.<br />
+- The <code>input</code> parameter corresponds an object containing the input variables passed on from the UI definition.<br />
+- The <code>output</code> parameter is an object to be defined in this server funtion, containing the information of what we would like to plot in UI.<br />
+- The <code>session</code> object is an environment that can be used to access information and functionality relating to the session.</p>
+<p>Inside the function we will use the <code>reactive( )</code> function to create a reactive expression (named ‘smp’ in the below code). The purpose of this step is to tell the server to watch for the changes in inputs. Also, we define the output object with <code>renderPlot( )</code> which stores a rendered plot so that we can pass it back to the UI object for display. We can only call the reactive() expression within a render function or another reactive expression.</p>
+<p><img src="media/code1.png" alt="code1" width="800"/></p>
+<pre><code>ui &lt;- fluidPage(
+    numericInput(&quot;a&quot;, &quot;a_label&quot;, value = 10),
+    plotOutput(&quot;x&quot;)
+)
+
+server &lt;- function(input, output, session) {
+    smp &lt;- reactive(sample(input$a, 20, replace = TRUE))
+    output$x &lt;- renderPlot(plot(smp()))
+}
+
+shinyApp(ui, server)</code></pre>
+<p><br></p>
+<h4 id="how-to-create-a-plot-reactive-to-more-than-one-input">How to create a plot reactive to more than one input</h4>
+<p>We can create a plot reactive to more than one input by simply defining multiple inputs with the help of <code>--Input( )</code> functions. Inside the server function we can retrive the inputs by calling input with the <code>$</code> sign. In the sample code given below, we use an additional <code>numericInput( )</code> function to define another variable ‘b’ with label ‘b_label’. Other <code>--Input( )</code> functions include <code>checkboxInput( )</code>, <code>dateInput( )</code>, <code>selectInput( )</code>, <code>textAreaInput()</code>, etc.</p>
+<p>Same as above, we need to pass on the plot function along with the input data to <code>renderPlot( )</code>. The output plot needs to be designed to accept multiple inputs and is then given back to the UI object for display.</p>
+<p><img src="media/code2.png" alt="code2" width="800"/></p>
+<pre><code>ui &lt;- fluidPage(
+    numericInput(&quot;a&quot;, &quot;a_label&quot;, value = 10),
+    numericInput(&quot;b&quot;, &quot;b_label&quot;, value = 1),
+    plotOutput(&quot;x&quot;)
+)
+
+server &lt;- function(input, output, session) {
+    smp &lt;- reactive(sample(input$a, input$b, replace = TRUE))
+    output$x &lt;- renderPlot(plot(smp()))
+}
+
+shinyApp(ui, server)</code></pre>
+<p><br></p>
+<h4 id="how-to-create-more-than-one-reactive-output">How to create more than one reactive output</h4>
+<p>To create more than one reactive output (for example, having a plot, a table and text to print on the screen), we need to add the same input into multiple renders. Specifically, inside the server function below, the passed-on input(s) can be assigned to <code>renderPlot( )</code>, <code>renderTable( )</code> and <code>renderText( )</code> simultaneously. After that, we send the output plot, table and text back to the corresponding <code>--Output( )</code> functions inside the UI object so that they can be displayed in the layout. Other <code>--Output( )</code> functions include <code>imageOutput( )</code>, <code>verbatimTextOutput( )</code>, <code>htmlOutput( )</code>, <code>uiOutput( )</code>, etc.</p>
+<p><img src="media/code3.png" alt="code3" width="800"/></p>
+<pre><code>ui &lt;- fluidPage(
+    numericInput(&quot;a&quot;, &quot;a_label&quot;, value = 10),
+    numericInput(&quot;b&quot;, &quot;b_label&quot;, value = 1),
+    textInput(&quot;c&quot;, &quot;c_label&quot;, value = &quot;apple&quot;),
+    plotOutput(&quot;x&quot;),
+    tableOutput(&quot;y&quot;),
+    textOutput(&quot;z&quot;)
+)
+
+server &lt;- function(input, output, session) {
+    smp &lt;- reactive(sample(input$a, input$b, replace = TRUE))
+    txt &lt;- reactive(input$c)
+    output$x &lt;- renderPlot(plot(smp()))
+    output$y &lt;- renderTable(list(mean(smp()), max(smp())))
+    output$z &lt;- renderText(txt())
+}
+
+shinyApp(ui, server)</code></pre>
+<p><br> <br></p>
 <h3 id="links">Links</h3>
 <ul>
-<li>Link 1</li>
-<li>Link 2</li>
+<li><a href="https://mastering-shiny.org" class="uri">https://mastering-shiny.org</a></li>
+<li><a href="https://mastering-shiny.org/basic-reactivity.html" class="uri">https://mastering-shiny.org/basic-reactivity.html</a></li>
+<li><a href="https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/" class="uri">https://shiny.rstudio.com/tutorial/written-tutorial/lesson6/</a></li>
+<li><a href="https://mastering-shiny.org/reactive-graph.html" class="uri">https://mastering-shiny.org/reactive-graph.html</a></li>
+<li><a href="https://shiny.rstudio.com/reference/shiny/latest/session.html" class="uri">https://shiny.rstudio.com/reference/shiny/latest/session.html</a></li>
 </ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

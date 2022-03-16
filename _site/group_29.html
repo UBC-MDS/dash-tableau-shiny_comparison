@@ -18,28 +18,97 @@
  <!--radix_placeholder_import_source-->
  <!--/radix_placeholder_import_source-->
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dash - Tableau - Shiny Comparison: Untitled</title>
+  <title>Dash - Tableau - Shiny Comparison: History</title>
 
+  <meta property="description" itemprop="description" content="Tableau"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: History"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Tableau"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dash - Tableau - Shiny Comparison"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: History"/>
+  <meta property="twitter:description" content="Tableau"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{},"value":[]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["History"]},{"type":"character","attributes":{},"value":["Tableau"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1965,6 +2034,14 @@
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1976,7 +2053,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","authors":[]}
+{"title":"History","description":"Tableau","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1998,24 +2075,36 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>group_29</h1>
+<h1>History</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Tableau</p>
 </div>
 
 
 <div class="d-article">
-<h2 id="topic-name-replace">Topic name (replace)</h2>
 <h3 id="brief-description">Brief description</h3>
-<p>To complete (no more of 250 words)</p>
+<p>Tableau was created in 2003 by founders Chris Stolte, Pat Hanrahan, and Christian Chabot, as a result of a computer science project at Stanford. Their goal was to improve the flow of analysis as well as creating a way for data visualization to be more easily accessed by the public.</p>
+<p>In 2019 the company was acquired by a customer relationship management company called Salesforce. The companies mission stayed the same but now has become stronger and more popular then ever before.</p>
+<p>Tableau is mainly used with SQl as it can be easily connected to databases, but tableau can also be used by many other programming languages such as python or java or C through special packages such as Tableau SDK, that allow users to create Tableau extracts and thus transfer their work/data onto the Tableau application for it to be visualized for any audience.</p>
 <h3 id="long-description">Long description</h3>
-<p>To complete</p>
+<h4 id="when-was-it-created">When was it created?</h4>
+<p>Tableau was said to be created in 2003. It was created as a result of a computer science project at Stanford University. The project aimed to improve the smoothness of analysis and to be able to make data more easily accessed for people through visualization.</p>
+<p>Chris Stolte, Pat Hanrahan, and Christian Chabot, are the founders and creators of the company and patented Tableau’s technology called: VizQL which essentially can visually expresses data by using drag-and-drop actions into data queries through an easy to use and navigate interface.</p>
+<p>Since the foundation of Tableau, the company has continuously invested in research and development. The have been developing solutions to help anyone that may be working with data so that they can be able to get to answers faster and uncover insights in their data. #### Are other companies involved in the current development of this technology?</p>
+<p>No, not particularly, but in 2019 Tableau was bought by a CRM company named Salesforce, they claimed that their mission would remain the same. Tableau still wants to help the public visualize and understand their data in an easy to use software. we see today that many many of the worlds top organizations everywhere—from non-profits to global enterprises, as well as across all industries and departments are using Tableau to ‘drive change’ with data. So although Tableau may not have companies besides Salesforce involved in their immediate development. They have thousands of companies world wide using their products and providing insightful feedback which continues to help the company grow and improve.</p>
+<h4 id="is-possible-to-be-used-with-different-languages-python-r-julia-excel-others">Is possible to be used with different languages (Python / R / Julia / excel / others)?</h4>
+<p>Yes Tableau is primarily used with SQl. You are able to connect databases and run queries from within tableau. Although Tableau is meant to make data visualization user friendly and works with mostly easy to use tools such as drag and drop.</p>
+<p>After doing a bit more research there is something called Tableau SDK. Tableau SDk is a set of functions that can be called from within C, C++, Java or Python to create tableau extracts and publishing them on tableau server. so to answer the question above yes Tableau can be used with different programming languages.</p>
+<p>So in other words you can take data from anywhere you would like, clean it and edit it using any of the compatible programming languages. Do any advanced analytics that you want and then just export the data to a tde file. That file can be directly read by Tableau or can be be shared on Tableau Server for visualization and sharing.</p>
+<p>This is a very exciting thing as take for example I am able to import a dataset in Python and use some of the cool machine learning libraries we have learned in MDS to predict some sort of outcome of interest. After I am done with the model, I can export the model i have created into a data extract using Tableau SDK and publish it directly to Tableau Server where i can then visualize the results and share it with anyone i would like.</p>
 <h3 id="links">Links</h3>
 <ul>
-<li>Link 1</li>
-<li>Link 2</li>
+<li><a href="https://www.tableau.com/solutions/high-technology-analytics" class="uri">https://www.tableau.com/solutions/high-technology-analytics</a></li>
+<li><a href="https://www.doingdata.org/blog/a-beginners-guide-to-tableau-sdk-an-introduction#" class="uri">https://www.doingdata.org/blog/a-beginners-guide-to-tableau-sdk-an-introduction#</a>:~:text=Tableau%20SDK%20is%20a%20set,publishing%20them%20on%20tableau%20server.</li>
+<li><a href="https://www.tableau.com/why-tableau/what-is-tableau#" class="uri">https://www.tableau.com/why-tableau/what-is-tableau#</a>:~:text=Tableau%20disrupted%20business%20intelligence%20with,accessible%20to%20people%20through%20visualization.</li>
 </ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

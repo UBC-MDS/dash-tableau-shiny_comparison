@@ -18,28 +18,97 @@
  <!--radix_placeholder_import_source-->
  <!--/radix_placeholder_import_source-->
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dash - Tableau - Shiny Comparison: Untitled</title>
+  <title>Dash - Tableau - Shiny Comparison: Deployment</title>
 
+  <meta property="description" itemprop="description" content="Dash"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Deployment"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Dash"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dash - Tableau - Shiny Comparison"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Deployment"/>
+  <meta property="twitter:description" content="Dash"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{},"value":[]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Deployment"]},{"type":"character","attributes":{},"value":["Dash"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1965,6 +2034,14 @@
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1976,7 +2053,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","authors":[]}
+{"title":"Deployment","description":"Dash","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1998,24 +2075,64 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>group_9</h1>
+<h1>Deployment</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Dash</p>
 </div>
 
 
 <div class="d-article">
-<h2 id="topic-name-replace">Topic name (replace)</h2>
 <h3 id="brief-description">Brief description</h3>
-<p>To complete (no more of 250 words)</p>
+<p>Dash apps can be deployed using two different methods, Plotly’s recommended paid service, Dash Enterprise, and the free-to-use Heroku. Both methods use git-based deployment and so by learning one it is easy to switch to the other. Dash Enterprise provides a suite of development tools and deployment support that allows for easy deployment onto local Linux servers or virtual private cloud services. Dash Enterprise handlrs all of the dependencies of your app by running it through a secure and isolated container, and because of this, deployment is extremely simple and only requires committing changes to git and then running <code>git push plotly master</code>. Python, R, and system-level dependencies are also automatically installed by Dash Enterprise, and any future updates to the app can be deployed through committing them and pushing to git. Deployment onto Heroku is essentially the same process since it is also git-based but it doesn’t automatically handle dependencies and so a couple more steps are required, such as setting up a virtual environment, creating a requirements.txt file, and a Procfile to run the app.</p>
 <h3 id="long-description">Long description</h3>
-<p>To complete</p>
+<p>Before deployment, Dash apps are run through localhost and can only be viewed on your machine. To allow others to access your app you must deploy it to a server. There are two Plotly supported methods of deploying Dash apps. The first method, which is recommended by Plotly, is Dash Enterprise.</p>
+<p>Dash Enterprise is a paid service provided by Plotly that allows for rapid Dash app deployment. Dash Enterprise provides a variety of services that aid in Dash app development (which is outside of the scope of this document) and deployment onto your local Linux servers or virtual private cloud services such as AWS, Google Cloud, or Azure.</p>
+<p>Dash Enterprise uses a git-based deployment that automatically installs your app’s Python, R, and system-level dependencies. Conflicting dependencies are not a problem with Dash Enterprise because every Dash app is run from a secure and isolated container. Using the following three easy steps you can deploy a Dash app from the command line.</p>
+<p>Initialize your Dash project folder with git:</p>
+<pre><code>cd &lt;your-folder-name&gt;
+git init</code></pre>
+<p>Select SSH or HTTPS deployment method: * For HTTPS:</p>
+<p><code>git remote add plotly https://&lt;your-dash-enterprise-platform&gt;</code></p>
+<p>where &lt;your-dash-enterprise-platform&gt; is replaced with the hostname of your licensed Dash Enterprise in your virtual private cloud service.</p>
+<ul>
+<li>For SSH:</li>
+</ul>
+<p><code>git remote add plotly &lt;user-name&gt;@&lt;your-dash-enterprise-platform&gt;</code></p>
+<p>Deploy your Dash app to Dash Enterprise:</p>
+<pre><code>git add .
+git commit -m &quot;&lt;deployment commit message&gt;&quot;
+git push plotly master</code></pre>
+<p>Following these steps, the Dash app is ready for use and can be visited at your Dash Enterprise platform address. Any subsequent updates to your app can be easily made with a <code>git push</code>.</p>
+<p>The second method that you can use to deploy your Dash app is Heroku, which is free to use. Fortunately, Heroku also uses a git-based deployment method so not only is it still simple but one can switch between Dash Enterprise and Heroku fairly easily. Other than all of the development tools and support that Dash Enterprise provides you, the main difference between the two services are that Heroku doesn’t automatically take care of your app’s dependencies, and so you have to create a virtual environment and manage them yourself.</p>
+<p>To deploy a python Dash app using Heroku, first you need a free Heroku account and Python version 3.10. You must download the Heroku installer for your computer’s platform, which will provide you with the ability to use the <code>heroku</code> command from the command line. Use the <code>heroku login</code> command to login to Heroku, which is required for heroku and git commands to work correctly.</p>
+<p>After creating a folder for your project you must initialize it with git and create a virtual environment:</p>
+<pre><code>git init
+virtualenv venv
+source venv/bin/activate</code></pre>
+<p>Since you are using a virtual environment you must install your app’s dependencies, including Dash and Plotly:</p>
+<pre><code>pip install dash
+pip install plotly</code></pre>
+<p>Additionally you will need the dependency gunicorn, to deploy your app:</p>
+<p><code>pip install gunicorn</code></p>
+<p>In your project folder, you must create the app (app.py), requirements.txt, and a Procfile.</p>
+<p>The requirements.txt file lists your app’s dependencies and is used by Pip to install them when deploying Heroku. This file can be filled automatically when in your virtual environment with:</p>
+<p><code>pip freeze &gt; requirements.txt</code></p>
+<p>The final file that is required for deployment in this method is the Procfile. The Procfile explicitly declares what command is executed to start your app. Its contents should look something like this:</p>
+<p><code>web: gunicorn app:server</code></p>
+<p>Running this declares the <code>web</code> process type which means the app will be attached to the HTTP routing Heroku stack and receive web traffic after deployment. <code>app</code> refers to the filename (<code>app.py</code>) and <code>server</code> refers to the <code>server</code> variable in the app.</p>
+<p>Once you have all of these files, you can deploy to Heroku using the following commands:</p>
+<p><code>heroku create &lt;dash-app-name&gt; git add . git commit -m “&lt;deployment commit message&gt;” git push heroku master heroku ps:scale web=1</code></p>
+<p>You can now view your app at <code>https://&lt;dash-app-name&gt;.herokuapp.com</code>. You can also use <code>heroku open</code> from the command line to open the website. If you update your app you can commit your changes to git and deploy to Heroku again with:</p>
+<p><code>git push heroku master</code></p>
+<p>The line <code>heroku ps:scale web=1</code> specifies that the app is running on a single web dyno. A dyno is a lightweight container that runs the command in the Procfile, and the more dynos you have running the more horizontally scaled out your app will be which means it can handle higher volumes of traffic. You can check how many dynos are running with <code>heroku ps</code>. Your app is by default deployed on a free dyno, which will sleep after a half-hour of not receiving traffic. What this means is that the first bout of traffic it receives after falling asleep will cause a delay of a few seconds before the app loads. Every Heroku account gets a quota of free dyno hours (550 hours a month, 1000 a month with credit card verification), after which the apps will no longer run. You can upgrade to a hobby or professional dyno type to avoid dyno sleeping.</p>
 <h3 id="links">Links</h3>
 <ul>
-<li>Link 1</li>
-<li>Link 2</li>
+<li><a href="https://dash.plotly.com/deployment" class="uri">https://dash.plotly.com/deployment</a></li>
+<li><a href="https://plotly.com/dash/app-manager/?tab=deployment" class="uri">https://plotly.com/dash/app-manager/?tab=deployment</a></li>
+<li><a href="https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true" class="uri">https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true</a></li>
 </ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

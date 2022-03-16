@@ -18,28 +18,97 @@
  <!--radix_placeholder_import_source-->
  <!--/radix_placeholder_import_source-->
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dash - Tableau - Shiny Comparison: Untitled</title>
+  <title>Dash - Tableau - Shiny Comparison: Backend and project structure</title>
 
+  <meta property="description" itemprop="description" content="Tableau"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Backend and project structure"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Tableau"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dash - Tableau - Shiny Comparison"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Backend and project structure"/>
+  <meta property="twitter:description" content="Tableau"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{},"value":[]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Backend and project structure"]},{"type":"character","attributes":{},"value":["Tableau"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1965,6 +2034,14 @@
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1976,7 +2053,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","authors":[]}
+{"title":"Backend and project structure","description":"Tableau","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1998,24 +2075,27 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>group_14</h1>
+<h1>Backend and project structure</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Tableau</p>
 </div>
 
 
 <div class="d-article">
-<h2 id="topic-name-replace">Topic name (replace)</h2>
 <h3 id="brief-description">Brief description</h3>
-<p>To complete (no more of 250 words)</p>
+<p>Given that Tableau is a fully managed data visualization and analysis platform distributed as a SaaS product, virtually all of their products’ source code is not available to common users or developers, and so one typically cannot change or develop anything relating to code architecture or organization. This also includes underlying plotting processes. Tableau does however offer a set of <a href="https://www.tableau.com/developer/tools">developer tools</a>, with which an individual could - in principle - develop a Tableau dashboard extension which overrides or overlays front-end components.</p>
 <h3 id="long-description">Long description</h3>
-<p>To complete</p>
+<p>Tableau is a data visualization and analysis platform, distributed as a fully managed software as a service (SaaS) product. As such, virtually all of their products’ source code is not available to common users or developers, and so one typically cannot change or develop anything relating to code architecture or organization.</p>
+<p>There doesn’t really exist the concept of integrating external data visualization tools or libraries with a Tableau dashboard within a Tableau environment. Instead, Tableau dashboards, ad hoc reports, etc., are created entirely via GUIs which abstracts away any backend plotting control from the UX. This is common practice for many softwares/tools/products classified as Business Intelligence (BI) tools. And like other BI tools out there, Tableau offers a rich and robust library of data visualization options across all there modes of delivery (i.e. Tableau Desktop, Tableau Server, Tableau Online, etc.)</p>
+<p>Tableau does however offer a set of <a href="https://www.tableau.com/developer/tools">developer tools</a>. An individual could, in principle, develop a Tableau dashboard extension which overrides or overlays front-end components (JavaScript, CSS, etc.) if they were tasked with creating embedded Tableau components in - for example - some proprietary web app. This type of project <em>does</em> happen in the real world, but typically comes with a steep cost, complex implementation, and issues with long-term solution management (at least, in the opinion/experience of the author of this little write-up).</p>
+<p><a href="https://extensiongallery.tableau.com/extensions?version=2021.2">Here are some examples of some of such dashboard extensions</a> which are publically available.</p>
 <h3 id="links">Links</h3>
 <ul>
-<li>Link 1</li>
-<li>Link 2</li>
+<li><a href="https://www.tableau.com/developer/tools" class="uri">https://www.tableau.com/developer/tools</a></li>
+<li><a href="https://extensiongallery.tableau.com/extensions?version=2021.2" class="uri">https://extensiongallery.tableau.com/extensions?version=2021.2</a></li>
 </ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

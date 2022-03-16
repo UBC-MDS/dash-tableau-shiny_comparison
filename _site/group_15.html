@@ -18,28 +18,97 @@
  <!--radix_placeholder_import_source-->
  <!--/radix_placeholder_import_source-->
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dash - Tableau - Shiny Comparison: Untitled</title>
+  <title>Dash - Tableau - Shiny Comparison: Backend and project structure</title>
 
+  <meta property="description" itemprop="description" content="Dash"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Backend and project structure"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Dash"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dash - Tableau - Shiny Comparison"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Backend and project structure"/>
+  <meta property="twitter:description" content="Dash"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{},"value":[]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Backend and project structure"]},{"type":"character","attributes":{},"value":["Dash"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1965,6 +2034,14 @@
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1976,7 +2053,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","authors":[]}
+{"title":"Backend and project structure","description":"Dash","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1998,24 +2075,80 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>group_15</h1>
+<h1>Backend and project structure</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Dash</p>
 </div>
 
 
 <div class="d-article">
-<h2 id="topic-name-replace">Topic name (replace)</h2>
-<h3 id="brief-description">Brief description</h3>
-<p>To complete (no more of 250 words)</p>
-<h3 id="long-description">Long description</h3>
-<p>To complete</p>
-<h3 id="links">Links</h3>
+<h2 id="brief-description">Brief description</h2>
+<p>Dash primarily supports Plotly objects. It is, however, possible to use other plotting libraries with Dash. Dash prides itself as a language-agnostic framework that supports range of programming languages. According to the <a href="https://dash.plotly.com/">documentation</a>, Dash provides support for <strong>Python</strong>, <strong>R</strong>, <strong>F#</strong> and <strong>Julia</strong> programming languages.</p>
+<p>Other plotting libraries that can be used with Dash via different conversion mechanisms are <strong>Altair</strong>, <strong>Matplotlib</strong>, <strong>ggplot</strong>, etc.</p>
+<p>The following types of maps and map components can be implemented in Dash: Choropleth Maps, Mapbox Choropleth Maps, Bubble Maps, Mapbox Density Heatmap, Hexbin MapBox, Mapbox Map Layers and more.</p>
+<p>The typical file structure for a successful build and development of a Dash app is:</p>
+<pre><code>|── data/            .csv 
+│   ├── processed/
+│   └── raw/
+├── src/             app.py/app.R
+├── doc/             .md
+├── Procfile
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── README.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+└── LICENSE.md</code></pre>
+<h2 id="long-description">Long description</h2>
+<h3 id="common-plotting-libraries">Common Plotting Libraries</h3>
+<p>Dash prides itself as a language-agnostic framework that supports range of programming languages. According to the <a href="https://dash.plotly.com/">documentation</a>, Dash provides support for <strong>Python</strong>, <strong>R</strong>, <strong>F#</strong> and <strong>Julia</strong> programming languages.</p>
+<p>In Python, Dash primarily supports <strong>Plotly</strong> objects. It is, however, possible to use other plotting libraries with Dash via different conversion mechanisms such as <strong>Seaborn/Matplotlib</strong>, <strong>Altair/Vega-Lite</strong> and <strong>Bokeh</strong>. Similarly, in R, aside from the <strong>Plotly</strong> library, Dash also supports some common graphing packages such as <strong>ggplot</strong>. However, the level of interaction and robustness of those graphs are maximized when they are plotted using <strong>Plotly</strong>.</p>
 <ul>
-<li>Link 1</li>
-<li>Link 2</li>
+<li>For Altair: We can take advantage of the <code>to_html()</code> method to include charts in iframes. This is essentially nesting a HTML page within a page.</li>
+<li>For Matplotlib: There is a <code>mpl_to_plotly()</code> function in <code>plotly.tools</code> library that will return a plotly figure(which can then be returned to Graph’s figure attribute) from <code>matplotlib</code> figure.</li>
+<li>For ggplot: With <code>ggplotly()</code> by Plotly, you can convert your ggplot2 figures into interactive ones powered by <em>plotly.js</em>, ready for embedding into Dash applications.</li>
 </ul>
+<h3 id="map-and-map-libraries-overview">Map and Map Libraries Overview</h3>
+<p>According to <a href="https://plotly.com/python/maps/">here</a>, the following types of maps and map components can be implemented in Dash:</p>
+<ul>
+<li>Choropleth Maps</li>
+<li>Mapbox Choropleth Maps</li>
+<li>Bubble Maps</li>
+<li>Mapbox Density Heatmap</li>
+<li>Hexbin MapBox</li>
+<li>Mapbox Map Layers and more…</li>
+</ul>
+<p>While Plotly is the primary map plotting library for Dash, other plotting libraries can as well be used. Other popular libraries such as Altair, ggplot, Folium are the other popular options that can be used in Dash via conversion mechanisms.</p>
+<h3 id="files-organization-and-structure">Files Organization and Structure</h3>
+<p>For a successful build and deployment of the app on Heroku, the following files are must-haves: * app.py or app.R file * Dockerfile * Docker-compose.yml * Procfile * requirements.txt</p>
+<p>The typical file structure is:</p>
+<pre><code>project/
+├── data/            .csv
+│   ├── processed/
+│   └── raw/
+├── src/             app.py/app.R
+├── doc/             .md
+├── Procfile
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── README.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+└── LICENSE.md</code></pre>
+<p>Another popular alternative is to put the app.py or app.R file in the root folder of the project.</p>
+<h2 id="links">Links</h2>
+<ul>
+<li><a href="https://medium.datadriveninvestor.com/plotly-dash-everything-you-need-to-know-bc09a5e45395" class="uri">https://medium.datadriveninvestor.com/plotly-dash-everything-you-need-to-know-bc09a5e45395</a></li>
+<li><a href="https://appsilon.com/dash-vs-shiny/" class="uri">https://appsilon.com/dash-vs-shiny/</a></li>
+<li><a href="https://plotly.com/ggplot2/" class="uri">https://plotly.com/ggplot2/</a></li>
+<li><a href="https://towardsdatascience.com/dash-for-beginners-create-interactive-python-dashboards-338bfcb6ffa4" class="uri">https://towardsdatascience.com/dash-for-beginners-create-interactive-python-dashboards-338bfcb6ffa4</a></li>
+<li><a href="https://plotly.com/python/maps/" class="uri">https://plotly.com/python/maps/</a></li>
+<li><a href="https://medium.com/swlh/interactive-choropleth-maps-in-python-dd943b99df50" class="uri">https://medium.com/swlh/interactive-choropleth-maps-in-python-dd943b99df50</a></li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

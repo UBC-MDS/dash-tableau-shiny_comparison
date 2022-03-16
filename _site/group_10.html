@@ -18,28 +18,97 @@
  <!--radix_placeholder_import_source-->
  <!--/radix_placeholder_import_source-->
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dash - Tableau - Shiny Comparison: Untitled</title>
+  <title>Dash - Tableau - Shiny Comparison: Testing + Databases</title>
 
+  <meta property="description" itemprop="description" content="Shiny"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Testing + Databases"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Shiny"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dash - Tableau - Shiny Comparison"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Untitled"/>
+  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Testing + Databases"/>
+  <meta property="twitter:description" content="Shiny"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{},"value":[]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Testing + Databases"]},{"type":"character","attributes":{},"value":["Shiny"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1965,6 +2034,14 @@
 
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -1976,7 +2053,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Untitled","authors":[]}
+{"title":"Testing + Databases","description":"Shiny","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1998,24 +2075,119 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>group_10</h1>
+<h1>Testing + Databases</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p>Shiny</p>
 </div>
 
 
 <div class="d-article">
-<h2 id="topic-name-replace">Topic name (replace)</h2>
 <h3 id="brief-description">Brief description</h3>
-<p>To complete (no more of 250 words)</p>
+<p>Testing is essential to all the applications and code that we develop, including Shiny app. Two testing packages are frequently used for Shiny testing in R that are <a href="https://testthat.r-lib.org/"><code>testthat</code></a> and <a href="https://shiny.rstudio.com/articles/testing-overview.html"><code>Shinytest</code></a>.</p>
+<p>Shiny supports both local and remote connection to the storage database. By default, Shiny supports to save and load data files such as CSV to the local server. It’s possible to load data to and export from the Shiny app including relational databases. There are majorly seven methods for storing persistent data remotely with a Shiny app: <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html#local">local file system</a>, <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html#dropbox">Dropbox</a>, <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html#s3">Amazon S3</a>, <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html#sqlite">SQLite</a>, <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html#mysql">MySQL</a>, <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html#gsheets">Google Sheets</a>, and <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html#mongodb">MongoDB</a>.</p>
 <h3 id="long-description">Long description</h3>
-<p>To complete</p>
+<h4 id="shiny-testing">Shiny: Testing</h4>
+<p>The packages <code>testthat</code> and <code>shinytest</code> are required for the test presented for Shiny and could be installed with install.packages(). <code>shinytest</code> has the class <code>ShinyDriver</code> (see <code>?ShinyDriver</code>) which opens the Shiny app in a new R-Session as well as an instance of <a href="http://phantomjs.org/">PhantomJS</a>. Produced by developers of RStudio, <a href="https://shiny.rstudio.com/articles/testing-overview.html"><code>Shinytest</code></a> offers three principal classes of tests: 1. Unit tests: These are used to test that functions behave as expected. 2. Server function tests: By running the server function of a Shiny application to simulate a real client session, these tests can be used to test reactive components, and outputs in the server function of your Shiny app. 3. Snapshot-based tests: While your Shiny application is run in a headless web browser, user actions - such as clicking on buttons and setting inputs to particular values - are simulated. These tests then take snapshots of the state of the application and references those snapshots when evaluating the state of a future iteration of the application.</p>
+<p>There are a handful of testing packages that can be implemented in Shiny apps; below are two of the most common ones. Below is a minimal example of a Shiny app (app.R) to be tested. Using the expectation functions of the package testthat it is thus easily possible to test the functions of the Shiny app. An advantage of this is that when calling <code>devtools::test()</code> both the tests of the Shiny app and other unit tests are taken into account.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/rstudio/shinytest'>shinytest</a></span><span class='op'>)</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://testthat.r-lib.org'>testthat</a></span><span class='op'>)</span>
+
+<span class='fu'><a href='https://testthat.r-lib.org/reference/context.html'>context</a></span><span class='op'>(</span><span class='st'>"Test Shiny app"</span><span class='op'>)</span>
+
+<span class='co'># open Shiny app and PhantomJS</span>
+<span class='va'>app</span> <span class='op'>&lt;-</span> <span class='va'>ShinyDriver</span><span class='op'>$</span><span class='fu'>new</span><span class='op'>(</span><span class='st'>"&lt;path to app.R&gt;"</span><span class='op'>)</span>
+
+<span class='fu'><a href='https://testthat.r-lib.org/reference/test_that.html'>test_that</a></span><span class='op'>(</span><span class='st'>"output is correct"</span>, <span class='op'>{</span>
+  <span class='co'># set num_input to 30</span>
+  <span class='va'>app</span><span class='op'>$</span><span class='fu'>setInputs</span><span class='op'>(</span>num_input <span class='op'>=</span> <span class='fl'>30</span><span class='op'>)</span>
+  <span class='co'># get text_out</span>
+  <span class='va'>output</span> <span class='op'>&lt;-</span> <span class='va'>app</span><span class='op'>$</span><span class='fu'>getValue</span><span class='op'>(</span>name <span class='op'>=</span> <span class='st'>"text_out"</span><span class='op'>)</span>
+  <span class='co'># test</span>
+  <span class='fu'><a href='https://testthat.r-lib.org/reference/equality-expectations.html'>expect_equal</a></span><span class='op'>(</span><span class='va'>output</span>, <span class='st'>"The square of the number n is: n² = 900"</span><span class='op'>)</span>  
+<span class='op'>}</span><span class='op'>)</span>
+
+<span class='co'># stop the Shiny app</span>
+<span class='va'>app</span><span class='op'>$</span><span class='kw'>stop</span><span class='op'>(</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<h4 id="shiny-database-connection">Shiny: Database Connection</h4>
+<p>Connecting Shiny applications to a data source requires no additional platform-specific database connection implementation strategy. Simply using the <code>DBI</code> package allows R developers to connect their Shiny application to all the most frequently used Database Management Systems. Connecting your Shiny application to a data layer can be accomplished in different ways depending on what architecture is used to store application data. The most common data source connections can be made using the <a href="https://dbi.r-dbi.org/"><code>DBI</code></a> package. Persistent storage lets you do more with your Shiny apps. You can even use persistent storage to access and write to remote data sets that would otherwise be too big to manipulate in R.</p>
+<p>The following table can serve as a reminder of the different storage types and when to use them. Remember that any method that uses local storage can only be used on Shiny Server, while any method that uses remote storage can be also used on shinyapps.io.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>Data type</th>
+<th>Local storage</th>
+<th>Remote storage</th>
+<th>R package</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Local file system</td>
+<td>Arbitrary data</td>
+<td>YES</td>
+<td></td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>Dropbox</td>
+<td>Arbitrary data</td>
+<td></td>
+<td>YES</td>
+<td>rdrop2</td>
+</tr>
+<tr class="odd">
+<td>Amazon S3</td>
+<td>Arbitrary data</td>
+<td></td>
+<td>YES</td>
+<td>aws.s3</td>
+</tr>
+<tr class="even">
+<td>SQLite</td>
+<td>Structured data</td>
+<td>YES</td>
+<td></td>
+<td>RSQLite</td>
+</tr>
+<tr class="odd">
+<td>MySQL</td>
+<td>Structured data</td>
+<td>YES</td>
+<td>YES</td>
+<td>RMySQL</td>
+</tr>
+<tr class="even">
+<td>Google Sheets</td>
+<td>Structured data</td>
+<td></td>
+<td>YES</td>
+<td>googlesheets4</td>
+</tr>
+<tr class="odd">
+<td>MongoDB</td>
+<td>Semi-structured data</td>
+<td>YES</td>
+<td>YES</td>
+<td>mongolite</td>
+</tr>
+</tbody>
+</table>
 <h3 id="links">Links</h3>
 <ul>
-<li>Link 1</li>
-<li>Link 2</li>
+<li><a href="https://testthat.r-lib.org" class="uri">https://testthat.r-lib.org</a></li>
+<li><a href="https://shiny.rstudio.com/articles/testing-overview.html" class="uri">https://shiny.rstudio.com/articles/testing-overview.html</a></li>
+<li><a href="https://cran.r-project.org/web/packages/RSelenium/vignettes/shinytesting.html" class="uri">https://cran.r-project.org/web/packages/RSelenium/vignettes/shinytesting.html</a></li>
+<li><a href="https://mastering-shiny.org/scaling-testing.html" class="uri">https://mastering-shiny.org/scaling-testing.html</a></li>
+<li><a href="https://shiny.rstudio.com/articles/persistent-data-storage.html" class="uri">https://shiny.rstudio.com/articles/persistent-data-storage.html</a></li>
 </ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
