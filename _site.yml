@@ -2,7 +2,7 @@ name: "dash-tableau-shiny_comparison"
 title: "Dash - Tableau - Shiny Comparison"
 description: |
   Dash - Tableau - Shiny Comparison
-output_dir: "_site"
+output_dir: "."
 navbar:
   right:
     - text: "Home"
