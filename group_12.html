@@ -20,14 +20,14 @@
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dash - Tableau - Shiny Comparison: Testing + Databases</title>
+  <title>Dash - Tableau - Shiny Comparison: Testing and databases</title>
 
   <meta property="description" itemprop="description" content="Dash"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Testing + Databases"/>
+  <meta property="og:title" content="Dash - Tableau - Shiny Comparison: Testing and databases"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Dash"/>
   <meta property="og:locale" content="en_US"/>
@@ -35,14 +35,14 @@
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Testing + Databases"/>
+  <meta property="twitter:title" content="Dash - Tableau - Shiny Comparison: Testing and databases"/>
   <meta property="twitter:description" content="Dash"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Testing + Databases"]},{"type":"character","attributes":{},"value":["Dash"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Testing and databases"]},{"type":"character","attributes":{},"value":["Dash"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1979,7 +1979,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Testing + Databases","description":"Dash","authors":[]}
+{"title":"Testing and databases","description":"Dash","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2001,7 +2001,7 @@
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Testing + Databases</h1>
+<h1>Testing and databases</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 <p>Dash</p>
@@ -2010,7 +2010,7 @@
 
 <div class="d-article">
 <h3 id="brief-description">Brief description</h3>
-<p>dash.testing is the offical package available on Dash website for testing dash app in both python and R. It provides some off-the-rack pytest fixtures and testing APIs, including browser testing APIs and dash APIs. There is also an open source pytest-dash package but it is deprecated since the release of dash.testing. As dash.testing is incorporated in dash, it is intended to draft the best practice for intergration test of dash app.</p>
+<p><code>dash.testing</code> is the offical package available on Dash website for testing dash app in both python and R. It provides some off-the-rack pytest fixtures and testing APIs, including browser testing APIs and dash APIs. There is also an open source pytest-dash package but it is deprecated since the release of dash.testing. As dash.testing is incorporated in dash, it is intended to draft the best practice for intergration test of dash app.</p>
 <p>Bascially, dash.testing uses pytest and Selenium Webdriver for simulating the interaction inside a web browser. We can use pytest fixture and the standard Python assert statements for verifying expectations and values. With dashr fixture, an instance of Python class providing a reliable framework to execute the app, we can use the same set of testing API calls as in testing Python app. Visual Regression Testing tool, Percy, is also integrated in dash.testing so that we can test about the graphical aspects of a Dash App and do visual testing with Percy snapshot.</p>
 <p>Dash Enterprise enables Dash Apps to use open source libraries to query external databases and datastores in callbacks or job queues. Dash use standardized Python DB-API (PEP-0249) for database connection and query execution. As it adopts the standard API, it is easy and straight forward for us to connect to external databases.</p>
 <h3 id="long-description">Long description</h3>
@@ -2031,11 +2031,9 @@ Sample Coode for connection and query</p>
             stmt = text(&quot;SELECT 1&quot;)
             connection.execute(stmt)
         print(&quot;Connection to database successful.&quot;)
-
     except Exception as e:
         print(&quot;Connection to database failed, retrying.&quot;)
         raise Exception
-
 t = text(&quot;SELECT * FROM users WHERE id=:user_id&quot;)
 result = pd.read_sql(t, params={&#39;user_id&#39;: 12})</code></pre>
 <h3 id="links">Links</h3>
